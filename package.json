@@ -1,0 +1,38 @@
+{
+  "name": "noctis-light-plus",
+  "displayName": "Noctis Light Plus",
+  "description": "Noctis-inspired light color themes with Rose and Verdant variants for local use",
+  "version": "0.1.0",
+  "publisher": "aiueokaki0",
+  "engines": {
+    "vscode": "^1.116.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "noctis",
+    "light"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Noctis Rose",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-rose-color-theme.json"
+      },
+      {
+        "label": "Noctis Verdant",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-verdant-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liviuschera/noctis"
+  },
+  "license": "MIT"
+}
