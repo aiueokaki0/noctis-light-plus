@@ -9,11 +9,21 @@
   `Noctis Rose` のテーマ定義ファイルです。
 - `themes/noctis-verdant-color-theme.json`
   `Noctis Verdant` のテーマ定義ファイルです。
+- `themes/noctis-amber-color-theme.json`
+  `Noctis Amber` のテーマ定義ファイルです。
+- `themes/noctis-slate-color-theme.json`
+  `Noctis Slate` のテーマ定義ファイルです。
+- `themes/noctis-coral-color-theme.json`
+  `Noctis Coral` のテーマ定義ファイルです。
+- `themes/noctis-teal-color-theme.json`
+  `Noctis Teal` のテーマ定義ファイルです。
+- `themes/noctis-copper-color-theme.json`
+  `Noctis Copper` のテーマ定義ファイルです。
 
 ## すぐに試す
 
 - `F5` を押すと、この拡張を読み込んだ Extension Development Host が起動します。
-- 起動したウィンドウで `Preferences: Color Theme` を実行し、テーマを選択します。
+- 起動したウィンドウで `Preferences: Color Theme` を実行し、7 種の `Noctis` テーマから確認したいものを選択します。
 - 言語ファイルを開くと、文法定義に応じてトークンにスコープが割り当てられます。
 - スコープを確認したいときは、コマンドパレットから `Developer: Inspect Editor Tokens and Scopes` を実行します。
 

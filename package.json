@@ -1,8 +1,8 @@
 {
   "name": "noctis-light-plus",
   "displayName": "Noctis Light Plus",
-  "description": "Noctis-inspired light color themes with Rose and Verdant variants for local use",
-  "version": "0.1.0",
+  "description": "Noctis-inspired light color themes with seven custom light variants for local use",
+  "version": "0.2.0",
   "publisher": "aiueokaki0",
   "engines": {
     "vscode": "^1.116.0"
@@ -27,6 +27,31 @@
         "label": "Noctis Verdant",
         "uiTheme": "vs",
         "path": "./themes/noctis-verdant-color-theme.json"
+      },
+      {
+        "label": "Noctis Amber",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-amber-color-theme.json"
+      },
+      {
+        "label": "Noctis Slate",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-slate-color-theme.json"
+      },
+      {
+        "label": "Noctis Coral",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-coral-color-theme.json"
+      },
+      {
+        "label": "Noctis Teal",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-teal-color-theme.json"
+      },
+      {
+        "label": "Noctis Copper",
+        "uiTheme": "vs",
+        "path": "./themes/noctis-copper-color-theme.json"
       }
     ]
   },
