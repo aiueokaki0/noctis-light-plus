@@ -1,6 +1,10 @@
 # Noctis Light Plus
 
-`Noctis Light Plus` は、Noctis 系を参考にした Light テーマを追加する VS Code 用カラーテーマ拡張です。ローカルでの試用と調整を目的として、次の 7 テーマを収録しています。
+English | [日本語](./README.ja.md)
+
+`Noctis Light Plus` is a VS Code color theme extension that adds custom light variants inspired by the Noctis family. It is intended for local use, experimentation, and visual tuning.
+
+It currently includes these seven themes:
 
 - `Noctis Rose`
 - `Noctis Verdant`
@@ -10,59 +14,59 @@
 - `Noctis Teal`
 - `Noctis Copper`
 
-既存の Noctis ファミリーが持つ配色バランスや役割分担を踏まえつつ、色相ごとに UI 印象を変えた新しい Light バリアントとして再構成しています。
+The themes preserve the readable syntax balance of Noctis while shifting the overall UI mood through different hue families.
 
-## 収録テーマ
+## Included Themes
 
 ### Noctis Rose
 
-やわらかいローズトーンを基調にした Light テーマです。UI アクセントを赤みのあるピンク寄りに寄せつつ、背景は明るく落ち着いたトーンに保っています。
+A soft rose-tinted light theme with warm pink accents and calm neutral surfaces.
 
 ### Noctis Verdant
 
-みずみずしいグリーントーンを基調にした Light テーマです。緑系アクセントを持たせつつ、Noctis らしい視認性とコントラストを維持しています。
+A fresh green-tinted light theme with verdant accents and balanced contrast.
 
 ### Noctis Amber
 
-黄土から琥珀寄りのアクセントを使った Light テーマです。暖かさはありつつも、警告色に寄りすぎない落ち着いたアンバーにまとめています。
+A warm amber-toned light theme with restrained golden accents that avoid blending too closely with warning colors.
 
 ### Noctis Slate
 
-青灰寄りの低刺激な Light テーマです。長時間利用でも疲れにくい、実用重視の落ち着いた配色を狙っています。
+A muted blue-gray light theme designed for long sessions and low visual fatigue.
 
 ### Noctis Coral
 
-サーモンからコーラル寄りの Light テーマです。`Noctis Rose` より少しオレンジ方向に寄せて、より軽やかな暖色アクセントにしています。
+A coral-leaning light theme that sits slightly more orange than `Noctis Rose` for a brighter warm accent.
 
 ### Noctis Teal
 
-青緑寄りの Light テーマです。`Noctis Verdant` より青みを強め、爽やかで情報色に寄った印象に整えています。
+A teal-leaning light theme with more blue than `Noctis Verdant`, giving it a cleaner information-oriented feel.
 
 ### Noctis Copper
 
-銅色からセピア寄りの Light テーマです。暖色系でありながら落ち着いたトーンに抑え、クラシックな読みやすさを重視しています。
+A copper and sepia-leaning light theme with a subdued warm tone and a more classic reading feel.
 
-## ローカルでの確認方法
+## Local Development
 
-1. このフォルダを VS Code で開きます。
-2. `F5` を押して Extension Development Host を起動します。
-3. 新しく開いたウィンドウで `Preferences: Color Theme` を実行します。
-4. 7 種の `Noctis` テーマから確認したいものを選択します。
+1. Open this folder in VS Code.
+2. Press `F5` to launch an Extension Development Host.
+3. In the new window, run `Preferences: Color Theme`.
+4. Select any of the seven `Noctis` themes.
 
-## VSIX の作成
+## Package as VSIX
 
 ```bash
 vsce package
 ```
 
-上記を実行すると、このフォルダ内に `.vsix` が生成されます。通常利用している VS Code に入れる場合は次を実行します。
+This creates a `.vsix` file in the project folder. To install it into your regular VS Code environment, run:
 
 ```bash
 code --install-extension noctis-light-plus-0.2.0.vsix
 ```
 
-## 補足
+## Notes
 
-- この拡張はローカル利用と試作用を前提にしています。
-- デザインは Liviu Schera 氏の Noctis テーマファミリーを参考にしています。
-- Noctis は MIT ライセンスで配布されています。
+- This extension is currently intended for local use and testing.
+- The design references the Noctis theme family by Liviu Schera.
+- Noctis is distributed under the MIT license.
