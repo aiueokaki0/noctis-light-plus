@@ -1,4 +1,4 @@
 node_modules
-*.vsix
 .env
 noctis-upstream/
+.vscode/settings.json
