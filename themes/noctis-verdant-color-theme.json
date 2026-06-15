@@ -272,12 +272,21 @@
     "editor.snippetFinalTabstopHighlightBackground": "#fdefd3",
     "editor.snippetFinalTabstopHighlightBorder": "#fdf3dd",
     "minimap.findMatchHighlight": "#2f8f64aa",
+    "minimap.selectionHighlight": "#c8e5c077",
+    "minimap.selectionOccurrenceHighlight": "#6bb98766",
     "minimap.errorHighlight": "#ff4000ee",
     "minimap.warningHighlight": "#e69533ee",
+    "minimap.infoHighlight": "#65af7eee",
+    "minimap.chatEditHighlight": "#00b36880",
+    "minimap.background": "#f6fbf499",
+    "minimap.foregroundOpacity": "#000000b3",
+    "minimapSlider.background": "#6d90785b",
+    "minimapSlider.hoverBackground": "#2f8f6462",
+    "minimapSlider.activeBackground": "#2f8f64ad",
     "minimapGutter.addedBackground": "#009456",
     "minimapGutter.modifiedBackground": "#14b832",
     "minimapGutter.deletedBackground": "#ff4000",
-    "minimap.background": "#fef8ec99"
+    "editorMinimap.inlineChatInserted": "#00b36880"
   },
   "tokenColors": [
     {
